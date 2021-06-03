@@ -35,6 +35,12 @@ var videoDB = {
       rating: "5/5",
       link: "https://youtu.be/arj7oStGLkU",
     },
+    {
+      name: "What They Don't Tell You About Mental Illness",
+      speaker: "Elizabeth Medina ",
+      rating: "4/5",
+      link: "https://www.youtube.com/watch?v=ieXB-BGxYwg",
+    }
   ],
   "Self Improvement": [
     {
@@ -119,22 +125,26 @@ function App() {
 
       <div
         style={{
-          width: "50%",
-          margin: "0 auto",
+          width: "40%",
+          margin: "0.9rem auto",
           display: "flex",
         }}
       >
         {videoList.map((genre) => {
           return (
             <button
+               className="active"
+               id="active"
               style={{
                 margin: "0px 8px",
-                width: "30%",
+                width: "33%",
                 backgroundColor: "transparent",
                 border: "none",
                 color: "#ff0000",
                 fontWeight: "bolder",
                 cursor: "pointer",
+                padding: "8px 16px",
+                borderRadius: "3px",
               }}
               onClick={() => btnClickHandler(genre)}
             >
@@ -151,19 +161,21 @@ function App() {
                 title="View on Youtube"
                 target="_blank"
                 rel="noreferrer"
+                style={{
+                  margin: "0rem auto",
+                width: "50%",
+                display: "block",
+                }}
               >
             <li
               key="item"
               style={{
-                padding: "0.5rem 1rem",
-                marginBottom: "1rem",
+                padding: "0rem 1rem",
+                marginBottom: "1.5rem",
                 listStyle: "none",
-                margin: "0rem auto",
-                width: "40%",
                 height: "auto",
                 border: "1px solid #d1d5db",
                 borderRadius: "3px",
-                marginBottom: "8px",
               }}
             >
               <h2>{item.name}</h2>
@@ -176,9 +188,16 @@ function App() {
       <footer
         style={{
           textAlign: "center",
+          backgroundColor: "#393c44",
+          padding: "0.5rem",
         }}
       >
-        made by Harshal
+        &lt;/&gt; <span
+        style={{
+          color: "#F59E0B",
+          alignSelf: "flex-end",
+        }}
+        >by Harshal</span>
       </footer>
     </div>
   );
