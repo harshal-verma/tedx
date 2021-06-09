@@ -13,7 +13,13 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App"
+         style={{
+           display:"flex",
+           flexDirection:"column",
+           height:"100%",
+         }}
+    >
       <header
         style={{
           display: "flex",
@@ -104,6 +110,8 @@ function App() {
             <a href={item.link}
                 title="View on Youtube"
                 style={{
+                textDecoration: "none",
+                color: "#000",
                 }}
               >
             <li
@@ -113,7 +121,7 @@ function App() {
                 listStyle: "none",
                 border: "1px solid #d1d5db",
                 borderRadius: "3px",
-                height: "115px",
+                height: "111px",
               }}
             >
               <h3>{item.name}</h3>
