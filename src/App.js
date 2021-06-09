@@ -66,7 +66,7 @@ function App() {
         style={{
           width: "40%",
           margin: "0.9rem auto",
-          display: "grid",
+          display: "flex",
         }}
       >
         {videoList.map((genre) => {
@@ -92,33 +92,32 @@ function App() {
           );
         })}
       </div>
-      <ul>
+      <ul 
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gridGap: "10px",
+        }}
+      >
         {videoDB[selectedGenre].map((item) => {
           return (
             <a href={item.link}
-                className="youtubeLink"
                 title="View on Youtube"
-                target="_blank"
-                rel="noreferrer"
                 style={{
-                  margin: "0rem auto",
-                width: "50%",
-                display: "block",
                 }}
               >
             <li
               key="item"
               style={{
                 padding: "0rem 1rem",
-                marginBottom: "1.5rem",
                 listStyle: "none",
-                height: "auto",
                 border: "1px solid #d1d5db",
                 borderRadius: "3px",
+                height: "115px",
               }}
             >
-              <h2>{item.name}</h2>
-              <p>by - {item.speaker}</p>
+              <h3>{item.name}</h3>
+              <p>by- {item.speaker}</p>
             </li>
             </a>
           );
@@ -131,12 +130,12 @@ function App() {
           padding: "0.5rem",
         }}
       >
-        &lt;/&gt; <span
+        &lt;/&gt; <span>by <a href="https://harshalverma.netlify.app/"
         style={{
+          textDecoration:"none",
           color: "#F59E0B",
-          alignSelf: "flex-end",
         }}
-        >by Harshal</span>
+        >Harshal</a></span>
       </footer>
     </div>
   );
