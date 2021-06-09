@@ -19,40 +19,40 @@ export const videoDB = {
         link: "https://youtu.be/LiLS7U7YIdc",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:        
+        name: "The Skill of Humor",
+        speaker: "Andrew Tarvin",
+        rating: "3.5/5",
+        link: "https://www.youtube.com/watch?v=MdZAMSyn_As&t=5s",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name: "Leading with Laughter: The Power of Humor in Leadership",
+        speaker: "Paul Osincup",
+        rating: "4/5",
+        link: "https://www.youtube.com/watch?v=yhokMZdQ7gs"
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name: "What makes things funny",
+        speaker: "Peter McGraw",
+        rating: "5/5",
+        link: "https://www.youtube.com/watch?v=ysSgG5V-R3U",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name: "Jokes are my superpower",
+        speaker: "Danny Zuker",
+        rating: "3/5",
+        link: "https://www.youtube.com/watch?v=Ma0psvGe2OI",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Can Comedy Be Funny Anymore?",
+        speaker:"Andrew Schulz",
+        rating:"5/5",
+        link:"https://www.youtube.com/watch?v=dl2MQq4qO4Y",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Laughter is Medicine",
+        speaker:"Anjelah Johnson",
+        rating:"4/5",
+        link:"https://www.youtube.com/watch?v=g6TUZm5wzLs",
       },
     ],
     "Mental Health": [
@@ -75,40 +75,40 @@ export const videoDB = {
         link: "https://www.youtube.com/watch?v=ieXB-BGxYwg",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:        
+        name:"Mental health for all, by all",
+        speaker:"Vikram Patel",
+        rating:"4/5",
+        link:"https://www.youtube.com/watch?v=gS-p4Piggy8",    
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"How to cope with anxiety",
+        speaker:"Olivia Remes",
+        rating:"4.5/5",
+        link:"https://www.youtube.com/watch?v=WWloIAQpMcQ",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"8 principles to achieve optimum mental health",
+        speaker:'Dan Banos',
+        rating:"5/5",
+        link:"https://www.youtube.com/watch?v=oWjSdwzOA6k",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Is Social Media Hurting Your Mental Health?",
+        speaker:"Bailey Parnell",
+        rating:"4.5/5",
+        link:"https://www.youtube.com/watch?v=Czg_9C7gw0o",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Feed Your Mental Health",
+        speaker:"Drew Ramsey",
+        rating:"3.5/5",
+        link:"https://www.youtube.com/watch?v=BbLFsQubdtw",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Tales from a teenage mental health advocate",
+        speaker:"Amanda Southworth",
+        rating:"3/5",
+        link:"https://www.youtube.com/watch?v=pLOagmZTWmM",
       },
     ],
     "Self Improvement": [
@@ -131,40 +131,40 @@ export const videoDB = {
         link: "https://youtu.be/Ks-_Mh1QhMc",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:        
+        name:"The Dark Side of Self Improvement",
+        speaker:" Suzanne Eder",
+        rating:"3.5/5",
+        link:"https://www.youtube.com/watch?v=wljRiAofFJ8",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"The key to transforming yourself",
+        speaker:"Robert Greene",
+        rating:"5/5",
+        link:'https://www.youtube.com/watch?v=gLt_yDvdeLQ',
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"How to be the best version of yourself",
+        speaker:"Raquel Caballero",
+        rating:"4.5/4",
+        link:"https://www.youtube.com/watch?v=WfuXYk6phMY",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"The skill of self confidence",
+        speaker:"Dr. Ivan Joseph",
+        rating:"3/5",
+        link:"https://www.youtube.com/watch?v=w-HYZv6HzAs",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Why self help will not change your life",
+        speaker:"Marianne Power",
+        rating:"4.5/5",
+        link:"https://www.youtube.com/watch?v=YWO-NbYmmFg",
       },
       {
-        name:
-        speaker:
-        rating:
-        link:
+        name:"Kaizen at Home - 90 Days to Success",
+        speaker:"Mike Morrill",
+        rating:"4/5",
+        link:"https://www.youtube.com/watch?v=yC3S9e7yl_0",
       },
     ],
   };

@@ -66,7 +66,7 @@ function App() {
         style={{
           width: "40%",
           margin: "0.9rem auto",
-          display: "flex",
+          display: "grid",
         }}
       >
         {videoList.map((genre) => {
